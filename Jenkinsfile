@@ -2,7 +2,7 @@ pipeline {
     agent none
 	
     environment {
-        PASS = credentials('123qwezxc.')
+        PASS = credentials('registry-pass')
     }
 	
     parameters {
